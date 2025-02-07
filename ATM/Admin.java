@@ -1,33 +1,12 @@
 package ATM;
 
-import java.util.ArrayList;
+public class Admin extends Accounts{
 
-public class Admin {
-    static String admin_Id="Ad01";
-    static String admin_Pass="123";
-    public ArrayList<Transaction> adminTransaction=new ArrayList<>();
 
-    public  ArrayList<Transaction>getAdminTransaction(){
+    public Admin(String adminId,String adminPass){           // Constructor is created to initialize the adminId and adminPass
 
-        return adminTransaction;
+        super(adminId,adminPass);
 
     }
-
-    public Admin(String adminId,String adminPass){
-
-        this.admin_Id=adminId;
-        this.admin_Pass=adminPass;
-
-    }
-
-//    public String getAdminId(){
-//
-//        return admin_Id;
-//
-//    }
-//    public String getAdminPass(){
-//
-//        return admin_Pass;
-//    }
 
 }

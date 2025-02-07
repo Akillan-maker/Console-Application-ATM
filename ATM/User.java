@@ -1,54 +1,23 @@
 package ATM;
 
-import java.util.ArrayList;
+public class User extends Accounts {
+    private double balance;    // Declared a variable to store balance
 
-public class User {
-    private String userId;
-    private String userPass;
-    private double balance=0.0;
-    public ArrayList<Transaction> userTransaction=new ArrayList<>();
+    public User(String userId,String userPass,Double balance){      // Created a constructor to initialize userId,userPass and balance
 
-    public ArrayList<Transaction>getUserTransaction(){
-
-        return userTransaction;
+        super(userId,userPass);  // Assigns userPass
+        this.balance =balance;    // Assigns balance
 
     }
 
-     public User(String userId,String userPass,Double balance){
-         this.userId=userId;
-         this.userPass=userPass;
-         this.balance =balance;
+    public double getbalance(){   // Gets balance
+
+        return balance;   // Returns balance
 
     }
+    public void setbalance(double balance){  // Sets balance
 
-    public String getuserId(){
-
-        return userId;
-
-    }
-    public String getuserPass(){
-
-         return userPass;
-
-    }
-    public void setUserPass(String userPass){
-
-         this.userPass=userPass;
-    }
-
-    public void setUserId(String userId) {
-
-        this.userId = userId;
-    }
-
-    public double getbalance(){
-
-         return balance;
-
-    }
-    public void setbalance(double balance){
-
-        this.balance=balance;
+        this.balance=balance;   // Assigns balance
 
     }
 
