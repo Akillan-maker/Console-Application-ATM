@@ -4,7 +4,7 @@ This is a console-based application written in Java that mimics the features of 
  The program enables users to carry out various banking tasks, including withdrawing funds, depositing money, checking 
 their account balance, and updating their PIN.
  Furthermore, an administrator interface is included to manage the ATM's cash and monitor all transactions.
- #Flow chart
+ # Flow chart
 ![Screenshot 2025-02-05 145955](https://github.com/user-attachments/assets/98da01ca-23f0-4a5f-922c-db515c9190ee)
 
  # Features 
