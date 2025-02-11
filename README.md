@@ -6,6 +6,8 @@ their account balance, and updating their PIN.
  Furthermore, an administrator interface is included to manage the ATM's cash and monitor all transactions.
  # Flow chart
 ![Screenshot 2025-02-05 145955](https://github.com/user-attachments/assets/98da01ca-23f0-4a5f-922c-db515c9190ee)
+# Output
+https://github.com/user-attachments/assets/9bb013c4-ef49-4017-b8a2-7a9c3a574653
 
  # Features 
 *User Features
